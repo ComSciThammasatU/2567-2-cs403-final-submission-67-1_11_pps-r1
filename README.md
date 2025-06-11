@@ -34,14 +34,17 @@ Manual / Instructions for your projects starts here !
 3. import re ใช้สำหรับจัดการ Regular Expressions เช่น การลบตัวอักษรที่ไม่ต้องการ
 4. import string ใช้เข้าถึงตัวอักษร เช่น ตัวพิมพ์เล็ก/ใหญ่ หรือลบเครื่องหมายวรรคตอน
 5. from google.colab import drive	ใช้เชื่อมต่อกับ Google Drive เพื่ออ่าน/บันทึกไฟล์ใน Colab
+   
 **สำหรับการแสดงผล**
 1. import matplotlib.pyplot as plt	ใช้สร้างกราฟ เพื่อแสดงผลการวิเคราะห์
+   
 **สำหรับการประมวลผลข้อความ(NLP)**
 1. import nltk	เป็นไลบรารี NLP สำหรับการประมวลผลภาษาธรรมชาติพื้นฐาน
 2. from nltk.corpus import stopwords	ใช้โหลด "stop words"
 3. import spacy	เป็นไลบรารี NLP แบบโมเดิร์น ใช้สำหรับ lemmatization, tokenization
 4. from spacy.lang.en.stop_words import STOP_WORDS	เป็น stop words ที่มีอยู่ใน spaCy ไลบรารี
 5. import en_core_sci_lg	โมเดล spaCy สำหรับข้อความวิทยาศาสตร์ (จาก SciSpaCy)
+   
 **สำหรับการทำ embedding**
 1. from gensim.models import Word2Vec	ใช้สร้างเวกเตอร์คำแบบ Word2Vec จากข้อความ
 2. from gensim.models.doc2vec import Doc2Vec, TaggedDocument	ใช้สร้างเวกเตอร์ทั้งเอกสารด้วย Doc2Vec
