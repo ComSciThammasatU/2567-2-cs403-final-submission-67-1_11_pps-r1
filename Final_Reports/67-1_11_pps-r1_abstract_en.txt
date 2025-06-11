@@ -1,5 +1,5 @@
-การค้นหาและการจัดกลุ่มบทคัดย่อทางวิชาการ ด้วยการประมวลผลภาษาธรรมชาติ
-Retrieval and Clustering of Academic  abstracts using Natural Language  Processing Techniques
+**การค้นหาและการจัดกลุ่มบทคัดย่อทางวิชาการ ด้วยการประมวลผลภาษาธรรมชาติ**
+**Retrieval and Clustering of Academic abstracts using Natural Language Processing Techniques**
 This project aims to propose an approach to enhance the efficiency of 
 search and clustering systems for academic research abstracts. The development 
 leverages deep learning tools to categorize words based on their semantic similarity, 
