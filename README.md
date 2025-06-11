@@ -59,8 +59,8 @@ Manual / Instructions for your projects starts here !
 1. เปิดไฟล์ `Retrieval and Clustering of Academic  abstracts using Natural Language  Processing Techniques .ipynb` ใน Google Colab
 2. อัปโหลดไฟล์ `research_abstracts.csv` เข้าสู่ runtime
 3. รันโค้ดทั้งหมดตามลำดับ
-4. เปรียบเทียบผลลัพธ์การค้นหาแต่ละ embedding ด้วยค่า precision
-5. หลังจากเลือก embedding ที่ดีที่สุด ให้รัน `clustering.ipynb` เพื่อลองจัดกลุ่มบทคัดย่อ และดูผลลัพธ์
+4. เปรียบเทียบผลลัพธ์การค้นหาแต่ละ embedding ด้วยค่า precision (ดูว่าผลลัพธ์ที่ได้ใช่บทคัดย่อที่คำสำคัญนั้นโดนดึงออกมาหรือไม่)
+5. หลังจากเลือก embedding ที่ดีที่สุด ให้รันในส่วนของการทำ clustering ต่อด้วยเทคนิค K-Means Clustering เพื่อลองจัดกลุ่มบทคัดย่อ และดูผลลัพธ์
 
 ## ข้อเสนอแนะ
 
