@@ -1,1 +1,18 @@
-
+การค้นหาและการจัดกลุ่มบทคัดย่อทางวิชาการ ด้วยการประมวลผลภาษาธรรมชาติ
+Retrieval and Clustering of Academic  abstracts using Natural Language  Processing Techniques
+This project aims to propose an approach to enhance the efficiency of 
+search and clustering systems for academic research abstracts. The development 
+leverages deep learning tools to categorize words based on their semantic similarity, 
+enabling the system to perform effective searches without requiring users to input 
+highly specific or domain-specific terms that are exclusively present within the 
+abstracts. This approach aims to facilitate user accessibility and significantly reduce 
+the time spent searching for relevant abstracts. 
+In this project, the authors evaluated the search accuracy of four NLP 
+techniques: TF-IDF, Word2Vec, Doc2Vec, and BERT. The evaluation was conducted by 
+preparing a set of keywords specifically selected to correspond to a curated 
+collection of 100 research abstracts. After generating embeddings for each technique, 
+the keywords were used to perform searches against the dataset, and the accuracy 
+of each technique was assessed based on the correctness of the retrieved abstracts. 
+The technique demonstrating the highest accuracy will be selected for further 
+development to enhance the performance and reliability of the abstract search 
+system.
