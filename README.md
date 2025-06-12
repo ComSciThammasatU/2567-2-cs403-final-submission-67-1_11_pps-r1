@@ -23,8 +23,8 @@ Manual / Instructions for your projects starts here !
 ## โครงสร้างไฟล์ของโครงงาน
 
 **รายละเอียด**
-1. `Retrieval and Clustering of Academic abstracts using Natural Language  Processing Techniques .ipynb` ขั้นตอนการเตรียมข้อมูล, สร้าง embedding, และทำการทดลอง semantic search,  การทำ clustering ด้วย K-Means และประเมินผลด้วย Silhouette Score 
-2. `research_abstracts.csv` ชุดข้อมูลบทคัดย่อทางวิชาการที่ใช้ทดลอง (10,000 รายการแรก)
+1. `Retrieval and Clustering of Academic abstracts using Natural Language  Processing Techniques.ipynb` ขั้นตอนการเตรียมข้อมูล, สร้าง embedding, และทำการทดลอง semantic search,  การทำ clustering ด้วย K-Means และประเมินผลด้วย Silhouette Score 
+2. `research_abstract.csv` ชุดข้อมูลบทคัดย่อทางวิชาการที่ใช้ทดลอง (10,000 รายการแรก)
 3. `KeywordsTest.txt` รายการคำค้น 100 คำ ที่ได้จากบทคัดย่อ (คำศัพท์ทั่วไป)
 
 ## Library ที่ใช้
